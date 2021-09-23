@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+arr=np.array([1,2,3,4,6,5])
+print(arr)
+arr1=np.array([[5,0,3,3,1],[4,4,4,1,9]])
+arr2=np.array([[1,2,3,4,8],[8,5,6,7,1]])
+print(arr[2])
+print(arr[1]+arr[2])
+print(arr1[1,1])
+print(arr2[1,3])
+print(arr1[0,3]+arr2[1,2])
+plt.plot(arr)
+plt.title("Love Curve")
+plt.xlabel("Love")
+plt.ylabel("Sex")
+plt.show()
